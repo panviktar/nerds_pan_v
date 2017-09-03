@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-basket {
+    width: 15px;
+    height: 15px;
+    background-position: -20px -20px;
+}
+
+.sprite--icon-basket-red {
+    width: 15px;
+    height: 15px;
+    background-position: -20px -75px;
+}
+
+.sprite--icon-check-off {
+    width: 23px;
+    height: 23px;
+    background-position: -20px -130px;
+}
+
+.sprite--icon-check-on {
+    width: 27px;
+    height: 23px;
+    background-position: -20px -193px;
+}
+
+.sprite--icon-circle {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -256px;
+}
+
+.sprite--icon-circle-dot {
+    width: 25px;
+    height: 25px;
+    background-position: -20px -321px;
+}
+
+.sprite--icon-down-dir- {
+    width: 11px;
+    height: 10px;
+    background-position: -20px -386px;
+}
+
+.sprite--icon-down-dir-green {
+    width: 11px;
+    height: 10px;
+    background-position: -20px -436px;
+}
+
+.sprite--icon-facebook {
+    width: 12px;
+    height: 22px;
+    background-position: -20px -486px;
+}
+
+.sprite--icon-instagramm {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -548px;
+}
+
+.sprite--icon-up-dir {
+    width: 11px;
+    height: 10px;
+    background-position: -20px -609px;
+}
+
+.sprite--icon-up-dir-green {
+    width: 11px;
+    height: 10px;
+    background-position: -20px -659px;
+}
+
+.sprite--icon-vk {
+    width: 26px;
+    height: 15px;
+    background-position: -20px -709px;
+}
+
+.sprite-Shape-1 {
+    width: 20px;
+    height: 23px;
+    background-position: -20px -764px;
+}

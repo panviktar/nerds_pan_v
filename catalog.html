@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Nёrds</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="catalog-html">
+
+
+
+  <header class="main-header">
+
+    <div class="container clearfix">
+
+      <div class="main-header-top">
+        <div class="logo-img">
+          <img src="img/logoNerts.svg" width="140px" height="60px" alt="">
+        </div>
+        <nav class="main-header-top__navigation">
+          <ul>
+            <li>
+              <a href="#"> Студия  </a>
+            </li>
+            <li>
+              <a href="#"> Клиенты </a>
+            </li>
+            <li>
+              <a href="#"> Магазины </a>
+            </li>
+            <li>
+              <a href="#" class="navigation__contact"> Контакты </a>
+            </li>
+            <li>
+              <a href="#" class="navigation__basket"> Корзина </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <h1> Добро пожаловать в магазин <br>
+          готовых макетов </h1>
+
+
+
+  </header>
+
+
+
+  <main class="container">
+
+    <div class="content-catalog clearfix">
+
+      <form class="content__column content__column--left">
+
+        <section class="price__range">
+
+          <h3> Стоимость: </h3>
+
+          <div class="range__controls">
+            <div class="range__controls__scale">
+              <div class="range__controls__bar"></div>
+            </div>
+
+            <div class="range__controls__toggle range__controls__toggle--min"></div>
+            <div class="range__controls__toggle range__controls__toggle--max"></div>
+          </div>
+
+          <div class="price-btn">
+            <span>от</span> <input class="price-btn--min" type="text" value="0">
+            <span>до</span> <input class="price-btn--max" type="text" value="15 000">
+          </div>
+
+        </section>
+
+        <section class="shop-filter__group">
+
+          <h3>  Сетка: </h3>
+
+          <p><input type="radio" class="radio" name="adaptation" value="adaptation" id="adaptation" checked><label for="adaptation"> Адаптивная </label></p>
+          <p><input type="radio" class="radio" name="fix" value="fix" id="fix"><label for="fix"> Фиксированная </label></p>
+          <p><input type="radio" class="radio" name="gum" value="gum" id="gum"><label for="gum"> Резиновая </label></p>
+
+        </section>
+
+        <section class="shop-filter__manufacturer">
+
+          <h3> Особенности: </h3>
+
+          <p><input type="checkbox" class="checkbox" name="slider" id="slider" checked><label for="slider"> Слайдер </label></p>
+          <p><input type="checkbox" class="checkbox" name="block" id="block"><label for="block"> Блок преимуществ </label></p>
+          <p><input type="checkbox" class="checkbox" name="news" id="news" checked><label for="news"> Новости </label></p>
+          <p><input type="checkbox" class="checkbox" name="galerey" id="galerey"><label for="galerey"> Галерея </label></p>
+          <p><input type="checkbox" class="checkbox" name="basket" id="basket"><label for="basket"> Корзина </label></p>
+
+        </section>
+
+        <a href="#" class="btn btn--form">Показать</a>
+
+      </form>
+
+      <div class="content__column content__column--right">
+
+        <div class="panel-sort">
+          <ul class="sort-controls">
+            <li>
+              <span>Сортировать:</span>
+            </li>
+            <li>
+              <span class="sort-option">По цене</span>
+            </li>
+            <li>
+              <a class="sort-option" href="#">По типу</a>
+            </li>
+            <li>
+              <a class="sort-option" href="#">По функционалу</a>
+            </li>
+            <li>
+              <div class="sorting-arrows">
+                <span class="sort-down  sort-down--active">По убыванию</span>
+                <a class="sort-up  sort-up--active" href="#">По возрастанию</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="catalog clearfix">
+          <div class="catalog__item catalog__item--aviator">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Aviator</h3>
+              <p>Одностраничный макет <br> с авторским дизайном</p>
+              <a href="#" class="btn btn--price">8000 р.</a>
+            </div>
+            <img src="img/aviator.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+          <div class="catalog__item catalog__item--sunset">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Sunset</h3>
+              <p>Интернет -магазин <br> с личным кабинетом</p>
+              <a href="#" class="btn btn--price">10000 р.</a>
+            </div>
+            <img src="img/sunset.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+          <div class="catalog__item catalog__item--forte">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Forte</h3>
+              <p>Отличныймакет для <br> личного блога </p>
+              <a href="#" class="btn btn--price">5000 p.</a>
+            </div>
+            <img src="img/forte.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+          <div class="catalog__item catalog__item--modernThai">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Modern organic <br>
+        thai</h3>
+              <p>Сайт для ресторана <br> быстрого питания </p>
+              <a href="#" class="btn btn--price">12000 p.</a>
+            </div>
+            <img src="img/modern organic thai.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+          <div class="catalog__item catalog__item--Avenue">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Avenue</h3>
+              <p>Макет для блога <br> о путешествиях </p>
+              <a href="#" class="btn btn--price">8000 p.</a>
+            </div><img src="img/avenue.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+          <div class="catalog__item catalog__item--Doventail">
+            <div class="item__header"></div>
+            <div class="catalog__item__info">
+              <h3>Doventail</h3>
+              <p>Интернет-магазин <br> с галереей товаров </p>
+              <a href="#" class="btn btn--price">14000 p.</a>
+            </div>
+            <img src="img/doventail.jpg" alt="" class="item__screenshot" width="240px" height="240px">
+          </div>
+
+        </div>
+
+        <div class="catalog__navigation">
+          <ul>
+            <li>
+              <a href="#" class="btn btn-number"> 1 </a>
+            </li>
+            <li>
+              <a href="#" class="btn btn-number"> 2 </a>
+            </li>
+            <li>
+              <a href="#" class="btn btn-number"> 3 </a>
+            </li>
+            <li>
+              <a href="#" class="btn btn-next"> Следующая </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+  <section class="map ">
+
+    <div class="map__image" id="map-canvas"></div>
+    <div class="container">
+
+      <div class="map__contact">
+        <h3> NЁRDS DESIGN STUDIO</h3>
+        <p> 191136, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19\8 <br>
+          <br> тел. +7 (812) 275 75 75 </p>
+        <a href="" class="btn"> Напишите нам </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer class="main-footer container">
+
+    <div class="social clearfix">
+      <div class="social__box">
+        <div class="social__box__icon social__box__icon--vk"></div>
+        <div class="social__box__icon social__box__icon--fb"></div>
+        <div class="social__box__icon social__box__icon--inst"></div>
+      </div>
+
+      <div class="social__box__info">
+        <h2> Давайте дружить, это выгодно </h2>
+        <p> Скидка на 10% для друзей из социальных сетей </p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <div class="modal-content">
+
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+
+    <form class="login-form" action="index.html" method="post">
+
+      <div class="half-width">
+        <label for="name"> Ваш имя </label>
+        <input class="icon-user" type="text" name="name" id="name" placeholder="Представьтесь пожалуйста">
+      </div>
+
+
+      <div class="half-width">
+        <label for="mail"> Ваш e-mail </label>
+        <input class="icon-e-mail" type="text" name="mail" id="mail" placeholder="Для отправки ответа">
+      </div>
+
+      <label for="list"> Текст письма:</label>
+      <textarea class="icon-text" type="text" name="list" id="list" placeholder="В свободной форме"></textarea>
+
+
+      <button class="btn" type="submit">Отправить</button>
+
+    </form>
+
+  </div>
+
+
+
+  <script src="js/popup.js"></script>
+
+
+
+</body>
+
+</html>
